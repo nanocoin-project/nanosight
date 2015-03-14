@@ -1,0 +1,68 @@
+{
+  "name": "nanosight",
+  "description": "An open-source frontend for the Nanosight API. The Nanosight API provides you with a convenient, powerful and simple way to query and broadcast data on the Nanocoin network and build your own services with it.",
+  "version": "0.2.6",
+  "author": {
+    "name": "Rick Yanez",
+    "email": "rick@nanocoin.io"
+  },
+  "repository": "git://github.com/nanocoin-project/nanosight.git",
+  "contributors": [
+    {
+      "name": "Ryan X Charles",
+      "email": "ryan@bitpay.com"
+    },
+    {
+      "name": "Matias Alejo Garcia",
+      "email": "ematiu@gmail.com"
+    },
+    {
+      "name": "Manuel Araoz",
+      "email": "manuelaraoz@gmail.com"
+    },
+    {
+      "name": "Mario Colque",
+      "email": "colquemario@gmail.com"
+    },
+    {
+      "name": "Gustavo Cortez",
+      "email": "cmgustavo83@gmail.com"
+    },
+    {
+      "name": "Juan Ignacio Sosa Lopez",
+      "email": "bechilandia@gmail.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/nanocoin-project/nanosight/issues"
+  },
+  "homepage": "https://github.com/nanocoin-project/nanosight",
+  "license": "MIT",
+  "keywords": [
+    "insight",
+    "blockchain",
+    "blockexplorer",
+    "nanocoin",
+    "bitcore",
+    "front-end"
+  ],
+  "scripts": {
+    "start": "INSIGHT_PUBLIC_PATH=public node node_modules/.bin/nanosight-api"
+  },
+  "dependencies": {
+    "nanosight-api": "git://github.com/nanocoin-project/nanosight-api.git"
+  },
+  "devDependencies": {
+    "bower": "~1.2.8",
+    "grunt": "~0.4.2",
+    "grunt-cli": "~0.1.11",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-contrib-watch": "*",
+    "grunt-macreload": "*",
+    "grunt-css": "~0.5.4",
+    "grunt-markdown": "~0.5.0",
+    "grunt-angular-gettext": "^0.2.15"
+  }
+}
